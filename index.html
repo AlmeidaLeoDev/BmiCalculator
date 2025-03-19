@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <main>
+        <img src="/img/calculo.svg" alt="calculator" class="img1">
+        <img src="/img/calculo2.svg" alt="calculator" class="img2">
+
+        <div class="original">
+            <div class="div1">
+                <h1>IMC Calculator</h1>
+            </div>
+
+            <hr>
+
+            <div class="div2">
+                    <div class="input">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="firstname" id="fname" placeholder="Your first name...">
+                    </div>
+                    
+                    <div class="input">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lastname" id="lname" placeholder="Your last name...">
+                    </div>
+    
+                    <div class="input">
+                        <label for="height">Height:</label>
+                        <input type="number" name="height" id="height" placeholder="Your height in cm...">
+                    </div>
+    
+                    <div class="input">
+                        <label for="weight">Weight:</label>
+                        <input type="number" name="weight" id="weight" placeholder="Your weight in kg...">
+                    </div>
+            
+                    <button class="buttonCalculate">Calculate</button>
+
+                    <div class="result" id="result"></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
